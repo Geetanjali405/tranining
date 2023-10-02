@@ -1,0 +1,39 @@
+.heading1 {
+  color: skyblue;
+  border: 1px solid black;
+}
+.heading2 {
+  color: blue;
+  border: 1px solid blue;
+}
+.para {
+  display: inline;
+}
+/* only for li's which are inside the list */
+.list > li {
+  display: inline;
+  /* background-color: grey; */
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+.list > li:hover {
+  /* background-color: blueviolet; */
+  cursor: pointer;
+  border-bottom: 2px solid red;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: pink;
+  position: absolute;
+  left: 400px;
+  top: 25px;
+}
+.child {
+  width: 20px;
+  height: 20px;
+  background: yellow;
+  position: relative;
+  left: 40px;
+}
